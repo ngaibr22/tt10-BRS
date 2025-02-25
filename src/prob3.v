@@ -22,9 +22,11 @@ module tt_um_BRS_3 (
     if (ui_in < uio_in) begin
         C = uio_in;
     end
+        else if (ui_in > uio_in) begin
+            C = ui_in;
+        end
         else begin
             C = ui_in;
-            endcase
         end
     
     
