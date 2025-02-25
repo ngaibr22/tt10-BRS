@@ -21,35 +21,36 @@ project:
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
-  # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  # Dedicated Inputs (ui_in)
+  ui[0]: "PIN_A1"
+  ui[1]: "PIN_A2"
+  ui[2]: "PIN_A3"
+  ui[3]: "PIN_A4"
+  ui[4]: "PIN_A5"
+  ui[5]: "PIN_A6"
+  ui[6]: "PIN_A7"
+  ui[7]: "PIN_A8"
 
-  # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  # Dedicated Outputs (uo_out)
+  uo[0]: "PIN_B1"
+  uo[1]: "PIN_B2"
+  uo[2]: "PIN_B3"
+  uo[3]: "PIN_B4"
+  uo[4]: "PIN_B5"
+  uo[5]: "PIN_B6"
+  uo[6]: "PIN_B7"
+  uo[7]: "PIN_B8"
 
-  # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  # Bidirectional IOs
+  uio[0]: "PIN_C1"
+  uio[1]: "PIN_C2"
+  uio[2]: "PIN_C3"
+  uio[3]: "PIN_C4"
+  uio[4]: "PIN_C5"
+  uio[5]: "PIN_C6"
+  uio[6]: "PIN_C7"
+  uio[7]: "PIN_C8"
+
 
 # Do not change!
 yaml_version: 6
