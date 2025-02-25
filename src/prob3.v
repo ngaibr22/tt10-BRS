@@ -16,9 +16,9 @@ module tt_um_BRS_3 (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-    input [7:0] A,
-    input [7:0] B,
-    output [7:0] C
+    A = ui_in,
+    B = uio_in;
+    C = uo_out;
     // Conditional bitwise XOR/AND logic
     assign C[0] = (A[7] == 0) ? (A[0] ^ B[0]) : (A[0] & B[0]);
     assign C[1] = (A[7] == 0) ? (A[1] ^ B[1]) : (A[1] & B[1]);
