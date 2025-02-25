@@ -26,7 +26,7 @@ module tt_um_BRS_3 (
             C = ui_in;
             endcase
         end
-    end
+    
     
   // All output pins must be assigned. If not used, assign to 0.
   assign uio_out = 0;
