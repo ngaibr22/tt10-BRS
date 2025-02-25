@@ -17,7 +17,6 @@ module tt_um_BRS_3 (
 );
     reg [7:0] C;
     assign uo_out = C;
-    always @* begin
         
     if (ui_in < uio_in) begin
         C = uio_in;
