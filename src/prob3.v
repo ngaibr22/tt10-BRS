@@ -14,8 +14,8 @@ module tt_um_BRS_3 (
     input  wire       ena,      // always 1 when the design is powered, so you can ignore it
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
-    reg [7:0] C;
 );
+    reg [7:0] C;
     assign uo_out = C;
 
     always @* begin
@@ -28,6 +28,7 @@ module tt_um_BRS_3 (
         else begin
             C = ui_in;
         end
+    end
     
     
   // All output pins must be assigned. If not used, assign to 0.
