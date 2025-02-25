@@ -15,11 +15,10 @@ module tt_um_BRS (
     input  wire       clk,      // clock
     input  wire       rst_n     // reset_n - low to reset
 );
-module ConditionalBitwiseXOR (
+
     input [7:0] A,
     input [7:0] B,
     output [7:0] C
-);
     // Conditional bitwise XOR/AND logic
     assign C[0] = (A[7] == 0) ? (A[0] ^ B[0]) : (A[0] & B[0]);
     assign C[1] = (A[7] == 0) ? (A[1] ^ B[1]) : (A[1] & B[1]);
